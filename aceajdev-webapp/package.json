@@ -1,11 +1,11 @@
 {
-  "homepage": "http://DuckDonni.github.io/aceajdev-app",
+  "homepage": "https://duckdonni.github.io/aceajdev-app",
   "name": "aceajdev-webapp",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "predeploy": "next build",
+    "predeploy": "next build && next export",
     "deploy": "gh-pages -d .next",
     "build": "next build",
     "start": "next start",
